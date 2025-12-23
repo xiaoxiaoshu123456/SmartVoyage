@@ -1,0 +1,494 @@
+SmartVoage - 2025-12-22 17:54:12,924 - INFO - 意图识别原始响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 17:54:17,027 - INFO - 清理后响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 17:54:19,735 - INFO - intents: ['out_of_scope']||user_queries: {}||follow_up_message: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。 
+SmartVoage - 2025-12-22 17:55:47,732 - INFO - 意图识别原始响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 17:55:47,732 - INFO - 清理后响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 17:55:47,733 - INFO - intents: ['out_of_scope']||user_queries: {}||follow_up_message: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。 
+SmartVoage - 2025-12-22 17:56:43,417 - INFO - 意图识别原始响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 17:56:43,417 - INFO - 清理后响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 17:56:43,417 - INFO - intents: ['out_of_scope']||user_queries: {}||follow_up_message: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。 
+SmartVoage - 2025-12-22 17:57:14,635 - INFO - 意图识别原始响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 17:57:14,635 - INFO - 清理后响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 17:57:14,636 - INFO - intents: ['out_of_scope']||user_queries: {}||follow_up_message: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。 
+SmartVoage - 2025-12-22 17:57:25,117 - INFO - 意图识别原始响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，可以帮你查询天气、机票、火车票、演唱会票，以及推荐景点等。请告诉我你的需求。"}
+SmartVoage - 2025-12-22 17:57:25,117 - INFO - 清理后响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，可以帮你查询天气、机票、火车票、演唱会票，以及推荐景点等。请告诉我你的需求。"}
+SmartVoage - 2025-12-22 17:57:25,117 - INFO - intents: ['out_of_scope']||user_queries: {}||follow_up_message: 你好，我是智能旅行助手，可以帮你查询天气、机票、火车票、演唱会票，以及推荐景点等。请告诉我你的需求。 
+SmartVoage - 2025-12-22 17:57:35,310 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "查询天气"}, "follow_up_message": "你想查询哪个城市今天的天气呢？"}
+SmartVoage - 2025-12-22 17:57:35,310 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "查询天气"}, "follow_up_message": "你想查询哪个城市今天的天气呢？"}
+SmartVoage - 2025-12-22 17:57:35,310 - INFO - intents: ['weather']||user_queries: {'weather': '查询天气'}||follow_up_message: 你想查询哪个城市今天的天气呢？ 
+SmartVoage - 2025-12-22 17:57:43,022 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "上海的天气"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 17:57:43,022 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "上海的天气"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 17:57:43,022 - INFO - intents: ['weather']||user_queries: {'weather': '上海的天气'}||follow_up_message:  
+SmartVoage - 2025-12-22 17:57:43,022 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 17:57:43,022 - INFO - WeatherQueryAssistant 查询：上海的天气
+SmartVoage - 2025-12-22 17:57:51,175 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-28ec4358-dc5a-4429-b687-d1b869ce4c2c', session_id='ea09282a-c41c-42ae-ade9-9a347d42778a', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'error': "HTTPConnectionPool(host='localhost', port=5005): Max retries exceeded with url: /a2a/tasks/send (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000234584667D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))"}, timestamp='2025-12-22T17:57:51.174923'), message={'content': {'text': 'User: 你是\nAssistant: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。\nUser: 你能干啥\nAssistant: 你好，我是智能旅行助手，可以帮你查询天气、机票、火车票、演唱会票，以及推荐景点等。请告诉我你的需求。\nUser: 查询天气\nAssistant: 你想查询哪个城市今天的天气呢？\nUser: 上海的天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '26133147-db75-42e4-b365-0eb721679d8c'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 17:57:51,176 - ERROR - 处理异常: 'content'
+SmartVoage - 2025-12-22 17:57:57,882 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "北京天气"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 17:57:57,882 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "北京天气"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 17:57:57,882 - INFO - intents: ['weather']||user_queries: {'weather': '北京天气'}||follow_up_message:  
+SmartVoage - 2025-12-22 17:57:57,883 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 17:57:57,883 - INFO - WeatherQueryAssistant 查询：北京天气
+SmartVoage - 2025-12-22 17:58:06,078 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-c1e6296e-5100-46e2-8cc7-1ef6104fd6a5', session_id='072beea2-97d6-43c6-86d8-7024c446697d', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'error': "HTTPConnectionPool(host='localhost', port=5005): Max retries exceeded with url: /a2a/tasks/send (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000234583F1FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))"}, timestamp='2025-12-22T17:58:06.077478'), message={'content': {'text': 'Assistant: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。\nUser: 你能干啥\nAssistant: 你好，我是智能旅行助手，可以帮你查询天气、机票、火车票、演唱会票，以及推荐景点等。请告诉我你的需求。\nUser: 查询天气\nAssistant: 你想查询哪个城市今天的天气呢？\nUser: 上海的天气\nUser: 北京天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '8c0fcf0e-9ded-4087-914d-e4b9b2ff84a3'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 17:58:06,078 - ERROR - 处理异常: 'content'
+SmartVoage - 2025-12-22 18:07:58,206 - INFO - 意图识别原始响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 18:07:58,207 - INFO - 清理后响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 18:07:58,207 - INFO - intents: ['out_of_scope']||user_queries: {}||follow_up_message: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。 
+SmartVoage - 2025-12-22 18:08:09,422 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气怎样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 18:08:09,423 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气怎样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 18:08:09,423 - INFO - intents: ['weather']||user_queries: {'weather': '上海天气怎样'}||follow_up_message:  
+SmartVoage - 2025-12-22 18:08:09,424 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 18:08:09,424 - INFO - WeatherQueryAssistant 查询：上海天气怎样
+SmartVoage - 2025-12-22 18:08:17,639 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-a9f09c4f-7f05-4312-8b07-a630951111bf', session_id='66fc7bd2-42e6-4c2c-ac73-b33a308166ae', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'error': "HTTPConnectionPool(host='localhost', port=5005): Max retries exceeded with url: /a2a/tasks/send (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000256F42416D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))"}, timestamp='2025-12-22T18:08:17.636309'), message={'content': {'text': '\nUser: 你好\nAssistant: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。\nUser: 上海天气怎样', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '8b16a36d-6998-428b-b5e8-aa1d3829a812'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 18:08:17,640 - ERROR - 处理异常: 'content'
+SmartVoage - 2025-12-22 19:05:17,311 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "帮忙查询上海的天气"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:05:17,312 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "帮忙查询上海的天气"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:05:17,312 - INFO - intents: ['weather']||user_queries: {'weather': '帮忙查询上海的天气'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:05:17,312 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:05:17,313 - INFO - WeatherQueryAssistant 查询：帮忙查询上海的天气
+SmartVoage - 2025-12-22 19:05:25,506 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-49ed5608-3bec-41e9-818c-f2b32a32c50d', session_id='f0bd0a84-4732-4df1-a68a-ba61af379dec', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'error': "HTTPConnectionPool(host='localhost', port=5005): Max retries exceeded with url: /a2a/tasks/send (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDA15D1290>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))"}, timestamp='2025-12-22T19:05:25.504977'), message={'content': {'text': '\nUser: 帮忙查询上海的天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '6045dab7-4ae8-4194-bf8e-a8c0a4ad3c1f'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:05:25,507 - ERROR - 处理异常: 'content'
+SmartVoage - 2025-12-22 19:06:58,505 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:06:58,505 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:06:58,505 - INFO - intents: ['weather']||user_queries: {'weather': '上海天气'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:06:58,506 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:06:58,506 - INFO - WeatherQueryAssistant 查询：上海天气
+SmartVoage - 2025-12-22 19:07:06,663 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-32134927-c918-48d1-8874-cd965218713e', session_id='166c5d63-8c9a-428d-8bb0-042123fdc69d', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'error': "HTTPConnectionPool(host='localhost', port=5005): Max retries exceeded with url: /a2a/tasks/send (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDA160A310>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))"}, timestamp='2025-12-22T19:07:06.663150'), message={'content': {'text': '\nUser: 帮忙查询上海的天气\nUser: 上海天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': 'b9ec9d8d-8d4a-40d6-a3ed-d81983c76758'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:07:06,664 - ERROR - 处理异常: 'content'
+SmartVoage - 2025-12-22 19:15:43,412 - INFO - 意图识别原始响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 19:15:54,468 - INFO - 清理后响应: {"intents": ["out_of_scope"], "user_queries": {}, "follow_up_message": "你好，我是智能旅行助手，欢迎提问旅行方面的问题。"}
+SmartVoage - 2025-12-22 19:16:14,973 - INFO - intents: ['out_of_scope']||user_queries: {}||follow_up_message: 你好，我是智能旅行助手，欢迎提问旅行方面的问题。 
+SmartVoage - 2025-12-22 19:18:28,827 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气如何"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:18:28,827 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气如何"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:18:28,827 - INFO - intents: ['weather']||user_queries: {'weather': '上海天气如何'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:18:28,827 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:18:28,828 - INFO - WeatherQueryAssistant 查询：上海天气如何
+SmartVoage - 2025-12-22 19:33:23,198 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气如何"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:33:31,552 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气如何"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:33:49,737 - INFO - intents: ['weather']||user_queries: {'weather': '上海天气如何'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:34:15,608 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:34:28,428 - INFO - WeatherQueryAssistant 查询：上海天气如何
+SmartVoage - 2025-12-22 19:34:57,986 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-c740d9c9-2401-4c09-9522-20a5a9e3b194', session_id='03afe141-1a0f-42a8-b567-9dab2193e123', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'error': "HTTPConnectionPool(host='localhost', port=5005): Max retries exceeded with url: /a2a/tasks/send (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A222C132D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))"}, timestamp='2025-12-22T19:34:54.800070'), message={'content': {'text': '\nUser: 上海天气如何', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '6abca3d1-cdd5-42f1-a223-1e92eb3575a2'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:36:01,253 - ERROR - 处理异常: 'content'
+SmartVoage - 2025-12-22 19:41:05,685 - INFO - 对话历史及用户问题: 火车票 从北京到上海 2025-10-22
+SmartVoage - 2025-12-22 19:41:13,859 - INFO - 原始响应: Task(id='task-8927e317-cfcd-4077-949d-496dc3b05629', session_id='da760d4c-01b0-4aae-a1e8-9febfd6832ed', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'error': "HTTPConnectionPool(host='localhost', port=5006): Max retries exceeded with url: /a2a/tasks/send (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002192935D710>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))"}, timestamp='2025-12-22T19:41:13.856071'), message={'content': {'text': '火车票 从北京到上海 2025-10-22', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '1b34ef4d-0815-4f84-aa8d-f2fbc629709c'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:41:13,859 - ERROR - 查询失败: 'content'
+SmartVoage - 2025-12-22 19:43:59,422 - INFO - 原始 LLM 输出: {"type": "train"}
+SELECT id, departure_city, arrival_city, departure_time, arrival_time, train_number, seat_type, price, remaining_seats FROM train_tickets WHERE departure_city = '北京' AND arrival_city = '上海' AND DATE(departure_time) = '2025-11-01'
+SmartVoage - 2025-12-22 19:43:59,423 - INFO - 分类类型: train, 生成的 SQL: SELECT id, departure_city, arrival_city, departure_time, arrival_time, train_number, seat_type, price, remaining_seats FROM train_tickets WHERE departure_city = '北京' AND arrival_city = '上海' AND DATE(departure_time) = '2025-11-01'
+SmartVoage - 2025-12-22 19:46:24,648 - INFO - 对话历史及用户问题: 查询北京今天的天气
+SmartVoage - 2025-12-22 19:46:26,209 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:46:26,209 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:46:28,317 - ERROR - 连接或会话初始化时发生错误: unhandled errors in a TaskGroup (1 sub-exception)
+SmartVoage - 2025-12-22 19:46:28,317 - INFO - MCP 返回: {'status': 'error', 'message': '连接或会话初始化时发生错误'}
+SmartVoage - 2025-12-22 19:47:43,509 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气如何"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:47:43,510 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气如何"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:47:43,510 - INFO - intents: ['weather']||user_queries: {'weather': '上海天气如何'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:47:43,510 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:47:43,511 - INFO - WeatherQueryAssistant 查询：上海天气如何
+SmartVoage - 2025-12-22 19:47:45,552 - INFO - 对话历史及用户问题: 
+User: 上海天气如何
+SmartVoage - 2025-12-22 19:47:46,555 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供具体的需要查询的日期，例如 '2025-12-22'。"}
+SmartVoage - 2025-12-22 19:47:46,561 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-2e777a49-b20d-4a15-a025-bdd136720703', session_id='6176ab4f-3c98-4311-b129-cdbaafc2f80e', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': "请提供具体的需要查询的日期，例如 '2025-12-22'。"}, 'role': 'agent'}, timestamp='2025-12-22T19:47:46.556351'), message={'content': {'text': '\nUser: 上海天气如何', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '29b8773a-e6ec-45bb-baed-45fca61f2d24'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:47:47,433 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-22 19:48:05,772 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "北京天气怎么样"}, "follow_up_message": "你问的是今天北京的天气状况吗？"}
+SmartVoage - 2025-12-22 19:48:05,773 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "北京天气怎么样"}, "follow_up_message": "你问的是今天北京的天气状况吗？"}
+SmartVoage - 2025-12-22 19:48:05,773 - INFO - intents: ['weather']||user_queries: {'weather': '北京天气怎么样'}||follow_up_message: 你问的是今天北京的天气状况吗？ 
+SmartVoage - 2025-12-22 19:48:36,434 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "今天北京天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:48:36,434 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "今天北京天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:48:36,434 - INFO - intents: ['weather']||user_queries: {'weather': '今天北京天气怎么样'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:48:36,435 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:48:36,435 - INFO - WeatherQueryAssistant 查询：今天北京天气怎么样
+SmartVoage - 2025-12-22 19:48:38,461 - INFO - 对话历史及用户问题: 
+User: 上海天气
+Assistant: 请提供具体的查询日期，例如“2025-12-22”，以便获取准确的天气预报信息。
+User: 北京天气怎么样
+Assistant: 你问的是今天北京的天气状况吗？
+User: 今天北京天气怎么样
+SmartVoage - 2025-12-22 19:48:39,860 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:48:39,860 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:48:41,907 - ERROR - 连接或会话初始化时发生错误: unhandled errors in a TaskGroup (1 sub-exception)
+SmartVoage - 2025-12-22 19:48:41,907 - INFO - MCP 返回: {'status': 'error', 'message': '连接或会话初始化时发生错误'}
+SmartVoage - 2025-12-22 19:48:41,910 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-82e436dd-40ef-4d77-b3fb-ae1cd3c8d61f', session_id='1622bb47-4877-48fb-83ca-915920c808ff', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': '连接或会话初始化时发生错误'}, 'role': 'agent'}, timestamp='2025-12-22T19:48:41.907190'), message={'content': {'text': '\nUser: 上海天气\nAssistant: 请提供具体的查询日期，例如“2025-12-22”，以便获取准确的天气预报信息。\nUser: 北京天气怎么样\nAssistant: 你问的是今天北京的天气状况吗？\nUser: 今天北京天气怎么样', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '1604597a-7605-4173-ae0c-5565c42b71b4'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:48:42,958 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-22 19:49:15,777 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "今天北京天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:49:15,778 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "今天北京天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:49:15,778 - INFO - intents: ['weather']||user_queries: {'weather': '今天北京天气怎么样'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:49:15,778 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:49:15,779 - INFO - WeatherQueryAssistant 查询：今天北京天气怎么样
+SmartVoage - 2025-12-22 19:49:17,815 - INFO - 对话历史及用户问题: User: 上海天气
+Assistant: 请提供具体的查询日期，例如“2025-12-22”，以便获取准确的天气预报信息。
+User: 北京天气怎么样
+Assistant: 你问的是今天北京的天气状况吗？
+User: yes
+Assistant: 请提供天气相关查询。
+User: 今天北京天气怎么样
+SmartVoage - 2025-12-22 19:49:19,678 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:49:19,678 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:49:21,732 - ERROR - 连接或会话初始化时发生错误: unhandled errors in a TaskGroup (1 sub-exception)
+SmartVoage - 2025-12-22 19:49:21,732 - INFO - MCP 返回: {'status': 'error', 'message': '连接或会话初始化时发生错误'}
+SmartVoage - 2025-12-22 19:49:21,736 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-b3686f18-5ea3-4334-937e-ba0709d6355a', session_id='07140c6d-10d6-4e31-9413-3d9fddbe2499', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': '连接或会话初始化时发生错误'}, 'role': 'agent'}, timestamp='2025-12-22T19:49:21.733364'), message={'content': {'text': 'User: 上海天气\nAssistant: 请提供具体的查询日期，例如“2025-12-22”，以便获取准确的天气预报信息。\nUser: 北京天气怎么样\nAssistant: 你问的是今天北京的天气状况吗？\nUser: yes\nAssistant: 请提供天气相关查询。\nUser: 今天北京天气怎么样', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': 'd593a602-8c75-4763-a58a-735794d66be9'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:49:22,526 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-22 19:49:57,842 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "深圳天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:49:57,842 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "深圳天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:49:57,842 - INFO - intents: ['weather']||user_queries: {'weather': '深圳天气怎么样'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:49:57,843 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:49:57,843 - INFO - WeatherQueryAssistant 查询：深圳天气怎么样
+SmartVoage - 2025-12-22 19:49:59,892 - INFO - 对话历史及用户问题: User: 北京天气怎么样
+Assistant: 你问的是今天北京的天气状况吗？
+User: yes
+Assistant: 请提供天气相关查询。
+User: 北京天气怎么样
+Assistant: 未找到数据，请确认城市/日期。
+User: 深圳天气怎么样
+SmartVoage - 2025-12-22 19:50:01,290 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供具体的需要查询的日期，例如 '2025-12-22'。"}
+SmartVoage - 2025-12-22 19:50:01,293 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-0c579b8f-65ed-49f6-8ded-f35e97be72e0', session_id='c70dd0e0-df34-4167-b40d-43c7ae935d8c', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': "请提供具体的需要查询的日期，例如 '2025-12-22'。"}, 'role': 'agent'}, timestamp='2025-12-22T19:50:01.290364'), message={'content': {'text': 'User: 北京天气怎么样\nAssistant: 你问的是今天北京的天气状况吗？\nUser: yes\nAssistant: 请提供天气相关查询。\nUser: 北京天气怎么样\nAssistant: 未找到数据，请确认城市/日期。\nUser: 深圳天气怎么样', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '698c234e-fb18-4c9f-935b-b8d8c2d15f15'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:50:02,682 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-22 19:50:33,103 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "2025-12-22 深圳天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:50:33,103 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "2025-12-22 深圳天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:50:33,104 - INFO - intents: ['weather']||user_queries: {'weather': '2025-12-22 深圳天气怎么样'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:50:33,104 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:50:33,104 - INFO - WeatherQueryAssistant 查询：2025-12-22 深圳天气怎么样
+SmartVoage - 2025-12-22 19:50:35,141 - INFO - 对话历史及用户问题: User: yes
+Assistant: 请提供天气相关查询。
+User: 北京天气怎么样
+Assistant: 未找到数据，请确认城市/日期。
+User: 深圳天气怎么样
+Assistant: 请提供具体的需要查询的日期，例如 '2025-12-22'。
+User: 2025-12-22 深圳天气怎么样
+SmartVoage - 2025-12-22 19:50:36,600 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '深圳' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:50:36,600 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '深圳' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:50:38,644 - ERROR - 连接或会话初始化时发生错误: unhandled errors in a TaskGroup (1 sub-exception)
+SmartVoage - 2025-12-22 19:50:38,645 - INFO - MCP 返回: {'status': 'error', 'message': '连接或会话初始化时发生错误'}
+SmartVoage - 2025-12-22 19:50:38,648 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-f37dbbec-d726-4cbd-a0c9-471d64f9316a', session_id='8b1fda01-4d76-430b-9cff-1c9138e92b79', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': '连接或会话初始化时发生错误'}, 'role': 'agent'}, timestamp='2025-12-22T19:50:38.645347'), message={'content': {'text': "User: yes\nAssistant: 请提供天气相关查询。\nUser: 北京天气怎么样\nAssistant: 未找到数据，请确认城市/日期。\nUser: 深圳天气怎么样\nAssistant: 请提供具体的需要查询的日期，例如 '2025-12-22'。\nUser: 2025-12-22 深圳天气怎么样", 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': 'f602c177-a256-4b2c-97d4-8a4934fccc98'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:50:40,004 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-22 19:51:40,689 - INFO - 意图识别原始响应: {"intents": ["weather", "train"], "user_queries": {"weather": "北京天气怎么样", "train": "从上海到北京的高铁/火车票"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:51:40,690 - INFO - 清理后响应: {"intents": ["weather", "train"], "user_queries": {"weather": "北京天气怎么样", "train": "从上海到北京的高铁/火车票"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:51:40,690 - INFO - intents: ['weather', 'train']||user_queries: {'weather': '北京天气怎么样', 'train': '从上海到北京的高铁/火车票'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:51:40,691 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 19:51:40,691 - INFO - WeatherQueryAssistant 查询：北京天气怎么样
+SmartVoage - 2025-12-22 19:51:42,759 - INFO - 对话历史及用户问题: User: 北京天气怎么样
+Assistant: 未找到数据，请确认城市/日期。
+User: 深圳天气怎么样
+Assistant: 请提供具体的需要查询的日期，例如 '2025-12-22'。
+User: 2025-12-22:深圳天气怎么样
+Assistant: 未找到数据，请确认城市/日期。系统暂未能获取2025-12-22深圳的天气信息，建议稍后重新查询或核实输入内容。
+User: 北京天气怎么样
+SmartVoage - 2025-12-22 19:51:44,330 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供具体的需要查询的日期，例如 '2025-12-22'。"}
+SmartVoage - 2025-12-22 19:51:44,334 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-7309314b-9025-46fb-a2ab-ad40c034c978', session_id='d8c01b2e-19a9-461b-b10e-f5af442f4c40', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': "请提供具体的需要查询的日期，例如 '2025-12-22'。"}, 'role': 'agent'}, timestamp='2025-12-22T19:51:44.331054'), message={'content': {'text': "User: 北京天气怎么样\nAssistant: 未找到数据，请确认城市/日期。\nUser: 深圳天气怎么样\nAssistant: 请提供具体的需要查询的日期，例如 '2025-12-22'。\nUser: 2025-12-22:深圳天气怎么样\nAssistant: 未找到数据，请确认城市/日期。系统暂未能获取2025-12-22深圳的天气信息，建议稍后重新查询或核实输入内容。\nUser: 北京天气怎么样", 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '09a8a34a-72d0-4e9b-8cde-6a5ed1c8695d'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:51:45,297 - INFO - 处理意图：train
+SmartVoage - 2025-12-22 19:51:45,297 - INFO - TicketQueryAssistant 查询：从上海到北京的高铁/火车票
+SmartVoage - 2025-12-22 19:51:47,365 - INFO - 对话历史及用户问题: User: 北京天气怎么样
+Assistant: 未找到数据，请确认城市/日期。
+User: 深圳天气怎么样
+Assistant: 请提供具体的需要查询的日期，例如 '2025-12-22'。
+User: 2025-12-22:深圳天气怎么样
+Assistant: 未找到数据，请确认城市/日期。系统暂未能获取2025-12-22深圳的天气信息，建议稍后重新查询或核实输入内容。
+User: 从上海到北京的高铁/火车票
+SmartVoage - 2025-12-22 19:51:49,342 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。"}
+SmartVoage - 2025-12-22 19:51:49,345 - INFO - TicketQueryAssistant 原始响应: Task(id='task-a0c8d735-f03b-4cb1-a7d9-13bdb57c5ea2', session_id='9d3894bc-31f4-4ed1-83f4-454a991f9da4', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': '请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。'}, 'role': 'agent'}, timestamp='2025-12-22T19:51:49.342104'), message={'content': {'text': "User: 北京天气怎么样\nAssistant: 未找到数据，请确认城市/日期。\nUser: 深圳天气怎么样\nAssistant: 请提供具体的需要查询的日期，例如 '2025-12-22'。\nUser: 2025-12-22:深圳天气怎么样\nAssistant: 未找到数据，请确认城市/日期。系统暂未能获取2025-12-22深圳的天气信息，建议稍后重新查询或核实输入内容。\nUser: 从上海到北京的高铁/火车票", 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '587f7583-59f5-489e-b661-b647f77686b9'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:51:51,302 - INFO - 路由到代理：['WeatherQueryAssistant', 'TicketQueryAssistant']
+SmartVoage - 2025-12-22 19:51:54,906 - INFO - 意图识别原始响应: {"intents": ["train"], "user_queries": {"train": "查询从北京到上海的火车票"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:51:54,906 - INFO - 清理后响应: {"intents": ["train"], "user_queries": {"train": "查询从北京到上海的火车票"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 19:51:54,907 - INFO - intents: ['train']||user_queries: {'train': '查询从北京到上海的火车票'}||follow_up_message:  
+SmartVoage - 2025-12-22 19:51:54,907 - INFO - 处理意图：train
+SmartVoage - 2025-12-22 19:51:54,908 - INFO - TicketQueryAssistant 查询：查询从北京到上海的火车票
+SmartVoage - 2025-12-22 19:51:56,972 - INFO - 对话历史及用户问题: User: 2025-12-22:深圳天气怎么样
+Assistant: 未找到数据，请确认城市/日期。系统暂未能获取2025-12-22深圳的天气信息，建议稍后重新查询或核实输入内容。
+User: 从上海到北京,然后说下天气
+Assistant: 请提供具体的需要查询的日期，例如 '2025-12-22'。
+
+请提供票务相关查询。
+User: 查询从北京到上海的火车票
+SmartVoage - 2025-12-22 19:51:58,579 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。"}
+SmartVoage - 2025-12-22 19:51:58,583 - INFO - TicketQueryAssistant 原始响应: Task(id='task-e850627b-c963-4250-89a2-12a785c38e0e', session_id='c9caf148-095a-4252-897d-6523c286d28a', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': '请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。'}, 'role': 'agent'}, timestamp='2025-12-22T19:51:58.579378'), message={'content': {'text': "User: 2025-12-22:深圳天气怎么样\nAssistant: 未找到数据，请确认城市/日期。系统暂未能获取2025-12-22深圳的天气信息，建议稍后重新查询或核实输入内容。\nUser: 从上海到北京,然后说下天气\nAssistant: 请提供具体的需要查询的日期，例如 '2025-12-22'。\n\n请提供票务相关查询。\nUser: 查询从北京到上海的火车票", 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '1e508e9b-7073-42d5-9a45-a8af97ab251f'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 19:51:59,301 - INFO - 路由到代理：['TicketQueryAssistant']
+SmartVoage - 2025-12-22 19:52:56,346 - INFO - === 票务预定MCP服务器信息 ===
+SmartVoage - 2025-12-22 19:52:56,346 - INFO - 名称: OrderTools
+SmartVoage - 2025-12-22 19:52:56,347 - INFO - 描述: 票务预定工具，通过调用API完成火车票、飞机票和演唱会票的预定。
+SmartVoage - 2025-12-22 19:53:47,148 - INFO - === 票务MCP服务器信息 ===
+SmartVoage - 2025-12-22 19:53:47,148 - INFO - 名称: TicketTools
+SmartVoage - 2025-12-22 19:53:47,148 - INFO - 描述: 票务查询工具，基于 train_tickets, flight_tickets, concert_tickets 表。只支持查询。
+SmartVoage - 2025-12-22 19:54:20,590 - INFO - === 天气MCP服务器信息 ===
+SmartVoage - 2025-12-22 19:54:20,590 - INFO - 名称: WeatherTools
+SmartVoage - 2025-12-22 19:54:20,590 - INFO - 描述: 天气查询工具，基于 weather_data 表。
+SmartVoage - 2025-12-22 19:54:50,979 - INFO - 对话历史及用户问题: 查询北京今天的天气
+SmartVoage - 2025-12-22 19:54:53,190 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:54:53,190 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:54:53,241 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 19:54:53,253 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "success", "data": [{"city": "北京", "fx_date": "2025-12-22", "temp_max": 3, "temp_min": -3, "text_day": "阴", "text_night": "小雪", "humidity": 47, "wind_dir_day": "北风", "precip": 0.0}]}', annotations=None, meta=None)] structuredContent={'result': '{"status": "success", "data": [{"city": "北京", "fx_date": "2025-12-22", "temp_max": 3, "temp_min": -3, "text_day": "阴", "text_night": "小雪", "humidity": 47, "wind_dir_day": "北风", "precip": 0.0}]}'} isError=False
+SmartVoage - 2025-12-22 19:54:53,257 - INFO - MCP 返回: {'status': 'success', 'data': [{'city': '北京', 'fx_date': '2025-12-22', 'temp_max': 3, 'temp_min': -3, 'text_day': '阴', 'text_night': '小雪', 'humidity': 47, 'wind_dir_day': '北风', 'precip': 0.0}]}
+SmartVoage - 2025-12-22 19:57:25,633 - INFO - 获取票务预定助手信息
+SmartVoage - 2025-12-22 19:57:25,633 - INFO - 名称: TicketOrderAssistant
+SmartVoage - 2025-12-22 19:57:25,633 - INFO - 描述: 通过MCP提供票务预定服务的助手
+SmartVoage - 2025-12-22 19:57:25,633 - INFO - 版本: 1.0.4
+SmartVoage - 2025-12-22 19:57:25,634 - INFO - 支持技能:
+SmartVoage - 2025-12-22 19:57:25,634 - INFO - - execute ticket order: 根据客户端提供的输入执行票务预定，返回执行结果
+SmartVoage - 2025-12-22 19:57:25,634 - INFO -   示例: 北京 到 上海 2025-11-15 火车票 二等座 1张, 上海 到 北京 2025-12-11 飞机票 公务舱 2张
+SmartVoage - 2025-12-22 20:01:51,064 - INFO - 获取票务预定助手信息
+SmartVoage - 2025-12-22 20:01:51,065 - INFO - 名称: TicketOrderAssistant
+SmartVoage - 2025-12-22 20:01:51,065 - INFO - 描述: 通过MCP提供票务预定服务的助手
+SmartVoage - 2025-12-22 20:01:51,065 - INFO - 版本: 1.0.4
+SmartVoage - 2025-12-22 20:01:51,066 - INFO - 支持技能:
+SmartVoage - 2025-12-22 20:01:51,066 - INFO - - execute ticket order: 根据客户端提供的输入执行票务预定，返回执行结果
+SmartVoage - 2025-12-22 20:01:51,066 - INFO -   示例: 北京 到 上海 2025-11-15 火车票 二等座 1张, 上海 到 北京 2025-12-11 飞机票 公务舱 2张
+SmartVoage - 2025-12-22 20:02:47,463 - INFO - 获取票务预定助手信息
+SmartVoage - 2025-12-22 20:02:48,404 - INFO - 名称: TicketOrderAssistant
+SmartVoage - 2025-12-22 20:02:49,473 - INFO - 描述: 通过MCP提供票务预定服务的助手
+SmartVoage - 2025-12-22 20:02:50,230 - INFO - 版本: 1.0.4
+SmartVoage - 2025-12-22 20:03:11,679 - INFO - 支持技能:
+SmartVoage - 2025-12-22 20:03:13,794 - INFO - - execute ticket order: 根据客户端提供的输入执行票务预定，返回执行结果
+SmartVoage - 2025-12-22 20:03:15,504 - INFO -   示例: 北京 到 上海 2025-11-15 火车票 二等座 1张, 上海 到 北京 2025-12-11 飞机票 公务舱 2张
+SmartVoage - 2025-12-22 20:03:43,546 - INFO - 用户查询 (票务): 北京 到 上海 2025-11-15 火车票 二等座 1张, 上海 到 北京 2025-12-11 飞机票 公务舱 2张
+SmartVoage - 2025-12-22 20:03:44,705 - INFO - 正在查询数据...
+SmartVoage - 2025-12-22 20:04:01,706 - INFO - 对话历史及用户问题: 北京 到 上海 2025-11-15 火车票 二等座 1张, 上海 到 北京 2025-12-11 飞机票 公务舱 2张
+SmartVoage - 2025-12-22 20:04:03,763 - INFO - 对话历史及用户问题: 北京 到 上海 2025-11-15 火车票 二等座 1张, 上海 到 北京 2025-12-11 飞机票 公务舱 2张
+SmartVoage - 2025-12-22 20:04:05,987 - INFO - 原始 LLM 输出: {"type": "train"}
+SELECT id, departure_city, arrival_city, departure_time, arrival_time, train_number, seat_type, price, remaining_seats FROM train_tickets WHERE departure_city = '北京' AND arrival_city = '上海' AND DATE(departure_time) = '2025-11-15' AND seat_type = '二等座'
+SmartVoage - 2025-12-22 20:04:05,987 - INFO - 分类类型: train, 生成的 SQL: SELECT id, departure_city, arrival_city, departure_time, arrival_time, train_number, seat_type, price, remaining_seats FROM train_tickets WHERE departure_city = '北京' AND arrival_city = '上海' AND DATE(departure_time) = '2025-11-15' AND seat_type = '二等座'
+SmartVoage - 2025-12-22 20:04:05,987 - INFO - 执行 SQL 查询: SELECT id, departure_city, arrival_city, departure_time, arrival_time, train_number, seat_type, price, remaining_seats FROM train_tickets WHERE departure_city = '北京' AND arrival_city = '上海' AND DATE(departure_time) = '2025-11-15' AND seat_type = '二等座' (类型: train)
+SmartVoage - 2025-12-22 20:04:06,169 - INFO - 执行票务查询: SELECT id, departure_city, arrival_city, departure_time, arrival_time, train_number, seat_type, price, remaining_seats FROM train_tickets WHERE departure_city = '北京' AND arrival_city = '上海' AND DATE(departure_time) = '2025-11-15' AND seat_type = '二等座'
+SmartVoage - 2025-12-22 20:04:06,169 - ERROR - 票务查询错误: MySQL Connection not available.
+SmartVoage - 2025-12-22 20:04:06,191 - INFO - 票务查询结果：meta=None content=[TextContent(type='text', text='{"status": "error", "message": "MySQL Connection not available."}', annotations=None, meta=None)] structuredContent={'result': '{"status": "error", "message": "MySQL Connection not available."}'} isError=False
+SmartVoage - 2025-12-22 20:04:06,205 - INFO - MCP 返回: {'status': 'error', 'message': 'MySQL Connection not available.'}
+SmartVoage - 2025-12-22 20:04:06,209 - INFO - 原始响应: Task(id='task-dd125566-b48b-4c1f-838e-a6c34a118724', session_id='7d7f5fa3-81b6-4068-8aff-8d3997c23fc5', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': 'MySQL Connection not available.'}, 'role': 'agent'}, timestamp='2025-12-22T20:04:06.205165'), message={'content': {'text': '北京 到 上海 2025-11-15 火车票 二等座 1张, 上海 到 北京 2025-12-11 飞机票 公务舱 2张', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '14f52921-01e7-4b65-b72d-82144d907c92'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:04:06,209 - INFO - 余票未查到：MySQL Connection not available.
+SmartVoage - 2025-12-22 20:04:19,418 - INFO - 原始响应: Task(id='task-34f89503-6857-4a66-b157-302643eb84c4', session_id='2ad494ab-e311-4582-972b-cb3a5b23df6b', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': 'MySQL Connection not available.'}, 'role': 'agent'}, timestamp='2025-12-22T20:04:06.210112'), message={'content': {'text': '北京 到 上海 2025-11-15 火车票 二等座 1张, 上海 到 北京 2025-12-11 飞机票 公务舱 2张', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '75099e9c-f1d0-4123-8eac-ed4217373b91'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:06:23,625 - INFO - 用户查询 (票务): 上海到北京的票务
+SmartVoage - 2025-12-22 20:06:24,182 - INFO - 正在查询数据...
+SmartVoage - 2025-12-22 20:06:28,536 - INFO - 对话历史及用户问题: 上海到北京的票务
+SmartVoage - 2025-12-22 20:06:30,574 - INFO - 对话历史及用户问题: 上海到北京的票务
+SmartVoage - 2025-12-22 20:06:32,017 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。"}
+SmartVoage - 2025-12-22 20:06:32,020 - INFO - 原始响应: Task(id='task-f61dd901-dcc5-46b9-928d-2ec55e8a5503', session_id='befd8b52-3ab0-42df-bd80-cc0f67c85927', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': '请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。'}, 'role': 'agent'}, timestamp='2025-12-22T20:06:32.017836'), message={'content': {'text': '上海到北京的票务', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '4de57e51-d290-4a90-9b3f-7be62ccf78de'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:06:32,021 - INFO - 余票未查到：请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。
+SmartVoage - 2025-12-22 20:06:33,393 - INFO - 原始响应: Task(id='task-b2968202-d720-4981-9e5f-7c898dd84b6e', session_id='d81781f6-5964-49ce-8c9f-e4024d1ed718', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': '请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。'}, 'role': 'agent'}, timestamp='2025-12-22T20:06:32.021799'), message={'content': {'text': '上海到北京的票务', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '54c64dff-8d73-40a5-bc57-240dcf594d57'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:10:00,698 - INFO - 获取票务助手信息
+SmartVoage - 2025-12-22 20:10:02,757 - INFO - 名称: TicketQueryAssistant
+SmartVoage - 2025-12-22 20:10:04,216 - INFO - 描述: 基于 LangChain 提供票务查询服务的助手
+SmartVoage - 2025-12-22 20:10:05,851 - INFO - 版本: 1.0.4
+SmartVoage - 2025-12-22 20:10:08,382 - INFO - 支持技能:
+SmartVoage - 2025-12-22 20:10:10,690 - INFO - - execute ticket query: 根据客户端提供的输入执行票务查询，返回数据库结果，支持自然语言输入
+SmartVoage - 2025-12-22 20:10:11,664 - INFO -   示例: 火车票 北京 上海 2025-07-31 硬卧, 机票 北京 上海 2025-07-31 经济舱, 演唱会 北京 刀郎 2025-08-23 看台
+SmartVoage - 2025-12-22 20:10:49,092 - INFO - 用户查询 (票务): exit()
+SmartVoage - 2025-12-22 20:10:49,093 - INFO - 正在查询数据...
+SmartVoage - 2025-12-22 20:10:51,149 - INFO - 对话历史及用户问题: exit()
+SmartVoage - 2025-12-22 20:10:53,240 - INFO - 对话历史及用户问题: exit()
+SmartVoage - 2025-12-22 20:10:54,568 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。"}
+SmartVoage - 2025-12-22 20:10:54,572 - INFO - 原始响应: Task(id='task-7bd6d58f-9ed7-4f03-9d5f-34c57d5efdec', session_id='d1da9be2-4c83-4d38-b4e2-9330e094cd1b', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': '请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。'}, 'role': 'agent'}, timestamp='2025-12-22T20:10:54.568570'), message={'content': {'text': 'exit()', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': 'a6a12617-67ca-4f0c-b395-78db5c2eecfd'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:10:54,573 - INFO - 余票未查到：请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。
+SmartVoage - 2025-12-22 20:10:54,578 - INFO - 原始响应: Task(id='task-da95d9f3-8135-4123-b008-3c94e28a100d', session_id='53e519d3-ce96-45f7-9697-13892ab8d8ac', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': '请提供票务类型（如火车票、机票、演唱会）和必要信息（如城市、日期）。'}, 'role': 'agent'}, timestamp='2025-12-22T20:10:54.573558'), message={'content': {'text': 'exit()', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '42456a68-4bf1-412e-984d-a4ee06244042'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:11:46,971 - INFO - 执行票务查询: SELECT * FROM flight_tickets WHERE departure_city = '上海' AND arrival_city = '北京' AND DATE(departure_time) = '2025-10-28' AND cabin_type = '公务舱'
+SmartVoage - 2025-12-22 20:11:46,971 - ERROR - 票务查询错误: MySQL Connection not available.
+SmartVoage - 2025-12-22 20:12:30,808 - INFO - 执行票务查询: SELECT * FROM train_tickets WHERE departure_city = '北京' AND arrival_city = '上海' AND DATE(departure_time) = '2025-10-22' AND seat_type = '二等座'
+SmartVoage - 2025-12-22 20:12:30,809 - ERROR - 票务查询错误: MySQL Connection not available.
+SmartVoage - 2025-12-22 20:12:35,970 - INFO - 执行票务查询: SELECT * FROM concert_tickets WHERE city = '北京' AND artist = '刀郎' AND DATE(start_time) = '2025-10-31' AND ticket_type = '看台'
+SmartVoage - 2025-12-22 20:12:35,970 - ERROR - 票务查询错误: MySQL Connection not available.
+SmartVoage - 2025-12-22 20:13:21,484 - INFO - 获取天气助手信息
+SmartVoage - 2025-12-22 20:13:21,484 - INFO - 名称: WeatherQueryAssistant
+SmartVoage - 2025-12-22 20:13:21,484 - INFO - 描述: 基于LangChain提供天气查询服务的助手
+SmartVoage - 2025-12-22 20:13:21,484 - INFO - 版本: 1.0.0
+SmartVoage - 2025-12-22 20:13:21,485 - INFO - 支持技能:
+SmartVoage - 2025-12-22 20:13:21,485 - INFO - - execute weather query: 执行天气查询，返回天气数据库结果，支持自然语言输入
+SmartVoage - 2025-12-22 20:13:21,485 - INFO -   示例: 北京 2025-07-30 天气, 上海未来5天, 今天天气如何
+SmartVoage - 2025-12-22 20:13:54,443 - INFO - 用户查询 (天气): 
+SmartVoage - 2025-12-22 20:13:54,443 - INFO - 正在查询数据...
+SmartVoage - 2025-12-22 20:13:54,462 - INFO - 对话历史及用户问题: 
+SmartVoage - 2025-12-22 20:13:55,796 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供城市和日期，例如 '北京 2025-07-30'。"}
+SmartVoage - 2025-12-22 20:13:55,799 - INFO - 原始响应: Task(id='task-c45d7500-0458-4a60-b0f1-b9fbdc3fb0f1', session_id='a93c5d94-94b3-466c-9f81-45c09ae2e7fe', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': "请提供城市和日期，例如 '北京 2025-07-30'。"}, 'role': 'agent'}, timestamp='2025-12-22T20:13:55.796982'), message={'content': {'text': '', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '0ae09129-a2f1-4add-81cc-1ff7692a77c3'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:13:55,799 - INFO - 请提供城市和日期，例如 '北京 2025-07-30'。
+SmartVoage - 2025-12-22 20:14:17,305 - INFO - 执行天气查询: SELECT * FROM weather_data WHERE city = '北京' AND fx_date = '2025-10-28'
+SmartVoage - 2025-12-22 20:14:17,305 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-22 20:14:17,312 - INFO - 执行天气查询: SELECT * FROM weather_data WHERE city = '北京' AND fx_date BETWEEN '2025-10-28' AND '2025-10-30'
+SmartVoage - 2025-12-22 20:14:17,312 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-22 20:56:03,030 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气如何"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 20:56:06,389 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气如何"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 20:56:10,083 - INFO - intents: ['weather']||user_queries: {'weather': '上海天气如何'}||follow_up_message:  
+SmartVoage - 2025-12-22 20:56:30,035 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 20:56:38,784 - INFO - WeatherQueryAssistant 查询：上海天气如何
+SmartVoage - 2025-12-22 20:56:48,623 - INFO - 对话历史及用户问题: 
+User: 上海天气如何
+SmartVoage - 2025-12-22 20:56:49,682 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供具体的需要查询的日期，例如 '2025-12-22'。"}
+SmartVoage - 2025-12-22 20:56:50,466 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-c4b46470-127c-4c69-acda-37ca13dd4393', session_id='af11a2de-814c-40ce-b668-9cc2a181584f', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': "请提供具体的需要查询的日期，例如 '2025-12-22'。"}, 'role': 'agent'}, timestamp='2025-12-22T20:56:49.683803'), message={'content': {'text': '\nUser: 上海天气如何', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '4e5c8132-2c94-4936-8548-c8e179abccc7'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:57:17,082 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-22 20:58:19,201 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 20:58:19,202 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "上海天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 20:58:19,202 - INFO - intents: ['weather']||user_queries: {'weather': '上海天气怎么样'}||follow_up_message:  
+SmartVoage - 2025-12-22 20:58:19,202 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 20:58:19,203 - INFO - WeatherQueryAssistant 查询：上海天气怎么样
+SmartVoage - 2025-12-22 20:58:21,257 - INFO - 对话历史及用户问题: 
+User: 上海天气怎么样
+SmartVoage - 2025-12-22 20:58:23,249 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供具体的需要查询的日期，例如 '2025-12-22'。"}
+SmartVoage - 2025-12-22 20:58:23,252 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-26e50c78-94a4-4bce-93fd-342668ce4807', session_id='18bd113a-036b-4435-8109-6d38c38ef45a', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': "请提供具体的需要查询的日期，例如 '2025-12-22'。"}, 'role': 'agent'}, timestamp='2025-12-22T20:58:23.249436'), message={'content': {'text': '\nUser: 上海天气怎么样', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': 'e698510f-9002-4e05-9379-1635b1d05c8d'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:58:24,439 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-22 20:58:54,932 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "今天上海天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 20:58:54,932 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "今天上海天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 20:58:54,932 - INFO - intents: ['weather']||user_queries: {'weather': '今天上海天气怎么样'}||follow_up_message:  
+SmartVoage - 2025-12-22 20:58:54,934 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 20:58:54,934 - INFO - WeatherQueryAssistant 查询：今天上海天气怎么样
+SmartVoage - 2025-12-22 20:58:56,984 - INFO - 对话历史及用户问题: 
+User: 上海天气怎么样
+Assistant: 请提供具体的日期以便查询上海天气，例如“2025-12-22”。目前未找到相关数据，请确认城市及日期信息。
+User: 今天上海天气怎么样
+SmartVoage - 2025-12-22 20:58:58,428 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 20:58:58,428 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 20:58:58,462 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 20:58:58,462 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-22 20:58:58,471 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "error", "message": "MySQL Connection not available."}', annotations=None, meta=None)] structuredContent={'result': '{"status": "error", "message": "MySQL Connection not available."}'} isError=False
+SmartVoage - 2025-12-22 20:58:58,475 - INFO - MCP 返回: {'status': 'error', 'message': 'MySQL Connection not available.'}
+SmartVoage - 2025-12-22 20:58:58,478 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-489079b7-b5d5-4e32-82f0-0b8f291f3290', session_id='b066bd13-41e3-4c66-aa0e-43668fa6def6', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': 'MySQL Connection not available.'}, 'role': 'agent'}, timestamp='2025-12-22T20:58:58.476885'), message={'content': {'text': '\nUser: 上海天气怎么样\nAssistant: 请提供具体的日期以便查询上海天气，例如“2025-12-22”。目前未找到相关数据，请确认城市及日期信息。\nUser: 今天上海天气怎么样', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '7e5de9e6-1eb6-49d1-95ca-2d5a9ec1ec66'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:59:00,772 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-22 20:59:21,626 - INFO - 意图识别原始响应: {"intents": ["weather"], "user_queries": {"weather": "2025年12月22日上海天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 20:59:21,627 - INFO - 清理后响应: {"intents": ["weather"], "user_queries": {"weather": "2025年12月22日上海天气怎么样"}, "follow_up_message": ""}
+SmartVoage - 2025-12-22 20:59:21,627 - INFO - intents: ['weather']||user_queries: {'weather': '2025年12月22日上海天气怎么样'}||follow_up_message:  
+SmartVoage - 2025-12-22 20:59:21,628 - INFO - 处理意图：weather
+SmartVoage - 2025-12-22 20:59:21,628 - INFO - WeatherQueryAssistant 查询：2025年12月22日上海天气怎么样
+SmartVoage - 2025-12-22 20:59:23,698 - INFO - 对话历史及用户问题: 
+User: 上海天气怎么样
+Assistant: 请提供具体的日期以便查询上海天气，例如“2025-12-22”。目前未找到相关数据，请确认城市及日期信息。
+User: 今天上海天气怎么样
+Assistant: 未找到数据，请确认城市/日期。系统当前无法连接数据库获取实时天气信息，建议稍后重试或检查网络连接状态。如需其他帮助，请随时告知。
+User: 2025年12月22日上海天气怎么样
+SmartVoage - 2025-12-22 20:59:25,024 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 20:59:25,024 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 20:59:25,059 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date = '2025-12-22'
+SmartVoage - 2025-12-22 20:59:25,059 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-22 20:59:25,068 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "error", "message": "MySQL Connection not available."}', annotations=None, meta=None)] structuredContent={'result': '{"status": "error", "message": "MySQL Connection not available."}'} isError=False
+SmartVoage - 2025-12-22 20:59:25,071 - INFO - MCP 返回: {'status': 'error', 'message': 'MySQL Connection not available.'}
+SmartVoage - 2025-12-22 20:59:25,073 - INFO - WeatherQueryAssistant 原始响应: Task(id='task-4bb1e8f9-37ae-428d-8519-bfefb915f26a', session_id='648addb6-5663-492b-8535-59d1bf6203d8', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': 'MySQL Connection not available.'}, 'role': 'agent'}, timestamp='2025-12-22T20:59:25.071227'), message={'content': {'text': '\nUser: 上海天气怎么样\nAssistant: 请提供具体的日期以便查询上海天气，例如“2025-12-22”。目前未找到相关数据，请确认城市及日期信息。\nUser: 今天上海天气怎么样\nAssistant: 未找到数据，请确认城市/日期。系统当前无法连接数据库获取实时天气信息，建议稍后重试或检查网络连接状态。如需其他帮助，请随时告知。\nUser: 2025年12月22日上海天气怎么样', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': 'cfff67fa-a28c-4259-9eab-9a4a227bcabe'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-22 20:59:26,107 - INFO - 路由到代理：['WeatherQueryAssistant']
+SmartVoage - 2025-12-23 10:47:03,664 - INFO - === 天气MCP服务器信息 ===
+SmartVoage - 2025-12-23 10:47:03,665 - INFO - 名称: WeatherTools
+SmartVoage - 2025-12-23 10:47:03,665 - INFO - 描述: 天气查询工具，基于 weather_data 表。
+SmartVoage - 2025-12-23 10:48:06,121 - INFO - === 天气MCP服务器信息 ===
+SmartVoage - 2025-12-23 10:48:06,121 - INFO - 名称: WeatherTools
+SmartVoage - 2025-12-23 10:48:06,121 - INFO - 描述: 天气查询工具，基于 weather_data 表。
+SmartVoage - 2025-12-23 10:52:30,248 - INFO - === 天气MCP服务器信息 ===
+SmartVoage - 2025-12-23 10:52:32,481 - INFO - 名称: WeatherTools
+SmartVoage - 2025-12-23 10:52:34,176 - INFO - 描述: 天气查询工具，基于 weather_data 表。
+SmartVoage - 2025-12-23 10:53:37,220 - INFO - === 天气MCP服务器信息 ===
+SmartVoage - 2025-12-23 10:53:37,220 - INFO - 名称: WeatherTools
+SmartVoage - 2025-12-23 10:53:37,220 - INFO - 描述: 天气查询工具，基于 weather_data 表。
+SmartVoage - 2025-12-23 11:11:38,918 - INFO - 正在订购火车票: 2023年12月23日, G123, 一等座, 2
+SmartVoage - 2025-12-23 11:11:38,920 - INFO - 恭喜，火车票预定成功！
+SmartVoage - 2025-12-23 11:13:45,038 - INFO - 获取票务助手信息
+SmartVoage - 2025-12-23 11:13:45,038 - INFO - 名称: TicketQueryAssistant
+SmartVoage - 2025-12-23 11:13:45,038 - INFO - 描述: 基于 LangChain 提供票务查询服务的助手
+SmartVoage - 2025-12-23 11:13:45,038 - INFO - 版本: 1.0.4
+SmartVoage - 2025-12-23 11:13:45,038 - INFO - 支持技能:
+SmartVoage - 2025-12-23 11:13:45,038 - INFO - - execute ticket query: 根据客户端提供的输入执行票务查询，返回数据库结果，支持自然语言输入
+SmartVoage - 2025-12-23 11:13:45,038 - INFO -   示例: 火车票 北京 上海 2025-07-31 硬卧, 机票 北京 上海 2025-07-31 经济舱, 演唱会 北京 刀郎 2025-08-23 看台
+SmartVoage - 2025-12-23 11:26:55,962 - INFO - 执行天气查询: SELECT * FROM weather_data WHERE city = '北京' AND fx_date = '2025-10-28'
+SmartVoage - 2025-12-23 11:26:55,962 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-23 11:26:55,972 - INFO - 执行天气查询: SELECT * FROM weather_data WHERE city = '北京' AND fx_date BETWEEN '2025-10-28' AND '2025-10-30'
+SmartVoage - 2025-12-23 11:26:55,972 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-23 11:27:27,912 - INFO - 获取天气助手信息
+SmartVoage - 2025-12-23 11:27:27,912 - INFO - 名称: WeatherQueryAssistant
+SmartVoage - 2025-12-23 11:27:27,912 - INFO - 描述: 基于LangChain提供天气查询服务的助手
+SmartVoage - 2025-12-23 11:27:27,913 - INFO - 版本: 1.0.0
+SmartVoage - 2025-12-23 11:27:27,913 - INFO - 支持技能:
+SmartVoage - 2025-12-23 11:27:27,913 - INFO - - execute weather query: 执行天气查询，返回天气数据库结果，支持自然语言输入
+SmartVoage - 2025-12-23 11:27:27,913 - INFO -   示例: 北京 2025-07-30 天气, 上海未来5天, 今天天气如何
+SmartVoage - 2025-12-23 11:27:43,350 - INFO - 用户查询 (天气): 北京未来三天的天气
+SmartVoage - 2025-12-23 11:27:43,350 - INFO - 正在查询数据...
+SmartVoage - 2025-12-23 11:27:43,376 - INFO - 对话历史及用户问题: 北京未来三天的天气
+SmartVoage - 2025-12-23 11:27:45,341 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:27:45,341 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:27:45,388 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:27:45,388 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-23 11:27:45,400 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "error", "message": "MySQL Connection not available."}', annotations=None, meta=None)] structuredContent={'result': '{"status": "error", "message": "MySQL Connection not available."}'} isError=False
+SmartVoage - 2025-12-23 11:27:45,404 - INFO - MCP 返回: {'status': 'error', 'message': 'MySQL Connection not available.'}
+SmartVoage - 2025-12-23 11:27:45,407 - INFO - 原始响应: Task(id='task-b61f4c3b-6c54-416d-92f6-9d54dd03683a', session_id='e59da026-5245-4eb6-8b99-60b218a07038', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': 'MySQL Connection not available.'}, 'role': 'agent'}, timestamp='2025-12-23T11:27:45.404120'), message={'content': {'text': '北京未来三天的天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': 'de25db50-1a5b-43d9-b64f-b05e48720a89'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-23 11:27:45,407 - INFO - MySQL Connection not available.
+SmartVoage - 2025-12-23 11:31:01,879 - INFO - 获取天气助手信息
+SmartVoage - 2025-12-23 11:31:01,879 - INFO - 名称: WeatherQueryAssistant
+SmartVoage - 2025-12-23 11:31:01,879 - INFO - 描述: 基于LangChain提供天气查询服务的助手
+SmartVoage - 2025-12-23 11:31:01,879 - INFO - 版本: 1.0.0
+SmartVoage - 2025-12-23 11:31:01,879 - INFO - 支持技能:
+SmartVoage - 2025-12-23 11:31:01,879 - INFO - - execute weather query: 执行天气查询，返回天气数据库结果，支持自然语言输入
+SmartVoage - 2025-12-23 11:31:01,880 - INFO -   示例: 北京 2025-07-30 天气, 上海未来5天, 今天天气如何
+SmartVoage - 2025-12-23 11:31:29,600 - INFO - 用户查询 (天气): 
+SmartVoage - 2025-12-23 11:31:29,600 - INFO - 正在查询数据...
+SmartVoage - 2025-12-23 11:31:29,616 - INFO - 对话历史及用户问题: 
+SmartVoage - 2025-12-23 11:31:30,728 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供城市和日期，例如 '北京 2025-07-30'。"}
+SmartVoage - 2025-12-23 11:31:30,731 - INFO - 原始响应: Task(id='task-4846f8ce-6047-4abe-b594-351751568e10', session_id='b3fe8723-ff1b-401d-b1b6-870872549b22', status=TaskStatus(state=<TaskState.INPUT_REQUIRED: 'input-required'>, message={'content': {'text': "请提供城市和日期，例如 '北京 2025-07-30'。"}, 'role': 'agent'}, timestamp='2025-12-23T11:31:30.728711'), message={'content': {'text': '', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '66d36c0d-1419-4c4f-b073-550251df506d'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-23 11:31:30,731 - INFO - 请提供城市和日期，例如 '北京 2025-07-30'。
+SmartVoage - 2025-12-23 11:31:46,264 - INFO - 用户查询 (天气): 北京最近三天的天气
+SmartVoage - 2025-12-23 11:31:46,264 - INFO - 正在查询数据...
+SmartVoage - 2025-12-23 11:31:46,270 - INFO - 对话历史及用户问题: 北京最近三天的天气
+SmartVoage - 2025-12-23 11:31:47,934 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:31:47,934 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:31:47,970 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:31:47,970 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-23 11:31:47,978 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "error", "message": "MySQL Connection not available."}', annotations=None, meta=None)] structuredContent={'result': '{"status": "error", "message": "MySQL Connection not available."}'} isError=False
+SmartVoage - 2025-12-23 11:31:47,983 - INFO - MCP 返回: {'status': 'error', 'message': 'MySQL Connection not available.'}
+SmartVoage - 2025-12-23 11:31:47,986 - INFO - 原始响应: Task(id='task-876d7bfe-5196-4795-84c1-e50f0ce0ed61', session_id='855175eb-a438-4b4a-856a-023042de51f8', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': 'MySQL Connection not available.'}, 'role': 'agent'}, timestamp='2025-12-23T11:31:47.983374'), message={'content': {'text': '北京最近三天的天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '9c8ae6af-eab1-4ad9-af83-315b1a251b1e'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-23 11:31:47,986 - INFO - MySQL Connection not available.
+SmartVoage - 2025-12-23 11:32:42,194 - INFO - 获取天气助手信息
+SmartVoage - 2025-12-23 11:32:42,894 - INFO - 名称: WeatherQueryAssistant
+SmartVoage - 2025-12-23 11:32:43,467 - INFO - 描述: 基于LangChain提供天气查询服务的助手
+SmartVoage - 2025-12-23 11:32:44,200 - INFO - 版本: 1.0.0
+SmartVoage - 2025-12-23 11:32:46,536 - INFO - 支持技能:
+SmartVoage - 2025-12-23 11:32:47,943 - INFO - - execute weather query: 执行天气查询，返回天气数据库结果，支持自然语言输入
+SmartVoage - 2025-12-23 11:32:49,042 - INFO -   示例: 北京 2025-07-30 天气, 上海未来5天, 今天天气如何
+SmartVoage - 2025-12-23 11:33:06,689 - INFO - 用户查询 (天气): 上海最近三天的天气
+SmartVoage - 2025-12-23 11:33:07,254 - INFO - 正在查询数据...
+SmartVoage - 2025-12-23 11:33:10,490 - INFO - 对话历史及用户问题: 上海最近三天的天气
+SmartVoage - 2025-12-23 11:33:12,673 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:33:12,673 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:33:12,725 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:33:12,725 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-23 11:33:12,733 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "error", "message": "MySQL Connection not available."}', annotations=None, meta=None)] structuredContent={'result': '{"status": "error", "message": "MySQL Connection not available."}'} isError=False
+SmartVoage - 2025-12-23 11:33:12,736 - INFO - MCP 返回: {'status': 'error', 'message': 'MySQL Connection not available.'}
+SmartVoage - 2025-12-23 11:33:20,642 - INFO - 原始响应: Task(id='task-4751070a-04c8-4132-9b64-bdd6c8601ac2', session_id='ac6be273-1c44-4bd5-bed0-f0004221b81a', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': 'MySQL Connection not available.'}, 'role': 'agent'}, timestamp='2025-12-23T11:33:12.736178'), message={'content': {'text': '上海最近三天的天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '751f30f2-1afd-43b4-921c-2ed4c751618b'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-23 11:34:06,545 - INFO - MySQL Connection not available.
+SmartVoage - 2025-12-23 11:34:10,196 - INFO - 用户查询 (天气): 上海最近三天的天气
+SmartVoage - 2025-12-23 11:34:10,196 - INFO - 正在查询数据...
+SmartVoage - 2025-12-23 11:35:07,589 - INFO - 对话历史及用户问题: 上海最近三天的天气
+SmartVoage - 2025-12-23 11:35:09,416 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:35:09,416 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:35:09,444 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:35:09,444 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-23 11:35:09,452 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "error", "message": "MySQL Connection not available."}', annotations=None, meta=None)] structuredContent={'result': '{"status": "error", "message": "MySQL Connection not available."}'} isError=False
+SmartVoage - 2025-12-23 11:35:09,455 - INFO - MCP 返回: {'status': 'error', 'message': 'MySQL Connection not available.'}
+SmartVoage - 2025-12-23 11:35:09,459 - INFO - 原始响应: Task(id='task-7980b39d-38f4-4a21-8e1c-b01fe71c7623', session_id='375666b7-808d-4592-aec7-67559c9eecdf', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'content': {'text': 'MySQL Connection not available.'}, 'role': 'agent'}, timestamp='2025-12-23T11:35:09.455803'), message={'content': {'text': '上海最近三天的天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '50964ca2-3086-42f1-aa8e-80c089e3f336'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-23 11:36:26,921 - INFO - MySQL Connection not available.
+SmartVoage - 2025-12-23 11:37:45,372 - INFO - 对话历史及用户问题: 查询北京今天的天气
+SmartVoage - 2025-12-23 11:37:47,008 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-23'
+SmartVoage - 2025-12-23 11:37:47,008 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '北京' AND fx_date = '2025-12-23'
+SmartVoage - 2025-12-23 11:37:49,077 - ERROR - 连接或会话初始化时发生错误: unhandled errors in a TaskGroup (1 sub-exception)
+SmartVoage - 2025-12-23 11:37:49,077 - INFO - MCP 返回: {'status': 'error', 'message': '连接或会话初始化时发生错误'}
+SmartVoage - 2025-12-23 11:38:26,480 - INFO - 获取天气助手信息
+SmartVoage - 2025-12-23 11:38:27,376 - INFO - 名称: WeatherQueryAssistant
+SmartVoage - 2025-12-23 11:38:27,876 - INFO - 描述: 基于LangChain提供天气查询服务的助手
+SmartVoage - 2025-12-23 11:38:28,552 - INFO - 版本: 1.0.0
+SmartVoage - 2025-12-23 11:38:29,894 - INFO - 支持技能:
+SmartVoage - 2025-12-23 11:38:31,157 - INFO - - execute weather query: 执行天气查询，返回天气数据库结果，支持自然语言输入
+SmartVoage - 2025-12-23 11:38:32,337 - INFO -   示例: 北京 2025-07-30 天气, 上海未来5天, 今天天气如何
+SmartVoage - 2025-12-23 11:38:49,560 - INFO - 用户查询 (天气): 上海天气
+SmartVoage - 2025-12-23 11:38:49,909 - INFO - 正在查询数据...
+SmartVoage - 2025-12-23 11:38:57,849 - INFO - 对话历史及用户问题: 上海天气
+SmartVoage - 2025-12-23 11:39:01,043 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供具体的需要查询的日期，例如 '2025-12-23'。"}
+SmartVoage - 2025-12-23 11:39:41,300 - INFO - 对话历史及用户问题: 上海天气
+SmartVoage - 2025-12-23 11:39:44,067 - INFO - 原始 LLM 输出: {"status": "input_required", "message": "请提供具体的需要查询的日期，例如 '2025-12-23'。"}
+SmartVoage - 2025-12-23 11:39:52,821 - INFO - 原始响应: Task(id='task-406c6fc9-df2a-4f8b-9013-ccea26a774d8', session_id='3df973c1-76d3-42cc-9fcb-60f487a0e279', status=TaskStatus(state=<TaskState.FAILED: 'failed'>, message={'error': "HTTPConnectionPool(host='127.0.0.1', port=5005): Read timed out. (read timeout=30)"}, timestamp='2025-12-23T11:39:52.484088'), message={'content': {'text': '上海天气', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '84f71a2a-9fd8-4eb0-a0ca-c7238189465f'}, history=[], artifacts=[], metadata={})
+SmartVoage - 2025-12-23 11:40:14,879 - ERROR - 查询失败: 'content'
+SmartVoage - 2025-12-23 11:40:40,784 - INFO - 用户查询 (天气): 上海最近三天
+SmartVoage - 2025-12-23 11:40:40,784 - INFO - 正在查询数据...
+SmartVoage - 2025-12-23 11:41:00,894 - ERROR - 查询失败：MySQL Connection not available.
+SmartVoage - 2025-12-23 11:41:05,649 - INFO - === 天气MCP服务器信息 ===
+SmartVoage - 2025-12-23 11:41:05,650 - INFO - 名称: WeatherTools
+SmartVoage - 2025-12-23 11:41:05,650 - INFO - 描述: 天气查询工具，基于 weather_data 表。
+SmartVoage - 2025-12-23 11:41:20,741 - INFO - 对话历史及用户问题: 上海最近三天
+SmartVoage - 2025-12-23 11:41:20,741 - INFO - 对话历史及用户问题: 上海最近三天
+SmartVoage - 2025-12-23 11:41:22,595 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:41:22,596 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:41:22,710 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:41:22,927 - INFO - 原始 LLM 输出: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:41:22,928 - INFO - SQL查询语句: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:41:31,830 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "success", "data": [{"city": "上海", "fx_date": "2025-12-23", "temp_max": 18, "temp_min": 7, "text_day": "小雨", "text_night": "小雨", "humidity": 71, "wind_dir_day": "西北风", "precip": 0.0}, {"city": "上海", "fx_date": "2025-12-24", "temp_max": 10, "temp_min": 5, "text_day": "阴", "text_night": "阴", "humidity": 57, "wind_dir_day": "北风", "precip": 0.0}, {"city": "上海", "fx_date": "2025-12-25", "temp_max": 10, "temp_min": 4, "text_day": "多云", "text_night": "多云", "humidity": 54, "wind_dir_day": "北风", "precip": 0.0}]}', annotations=None, meta=None)] structuredContent={'result': '{"status": "success", "data": [{"city": "上海", "fx_date": "2025-12-23", "temp_max": 18, "temp_min": 7, "text_day": "小雨", "text_night": "小雨", "humidity": 71, "wind_dir_day": "西北风", "precip": 0.0}, {"city": "上海", "fx_date": "2025-12-24", "temp_max": 10, "temp_min": 5, "text_day": "阴", "text_night": "阴", "humidity": 57, "wind_dir_day": "北风", "precip": 0.0}, {"city": "上海", "fx_date": "2025-12-25", "temp_max": 10, "temp_min": 4, "text_day": "多云", "text_night": "多云", "humidity": 54, "wind_dir_day": "北风", "precip": 0.0}]}'} isError=False
+SmartVoage - 2025-12-23 11:41:31,861 - INFO - MCP 返回: {'status': 'success', 'data': [{'city': '上海', 'fx_date': '2025-12-23', 'temp_max': 18, 'temp_min': 7, 'text_day': '小雨', 'text_night': '小雨', 'humidity': 71, 'wind_dir_day': '西北风', 'precip': 0.0}, {'city': '上海', 'fx_date': '2025-12-24', 'temp_max': 10, 'temp_min': 5, 'text_day': '阴', 'text_night': '阴', 'humidity': 57, 'wind_dir_day': '北风', 'precip': 0.0}, {'city': '上海', 'fx_date': '2025-12-25', 'temp_max': 10, 'temp_min': 4, 'text_day': '多云', 'text_night': '多云', 'humidity': 54, 'wind_dir_day': '北风', 'precip': 0.0}]}
+SmartVoage - 2025-12-23 11:41:31,863 - INFO - 执行天气查询: SELECT city, fx_date, temp_max, temp_min, text_day, text_night, humidity, wind_dir_day, precip FROM weather_data WHERE city = '上海' AND fx_date BETWEEN '2025-12-23' AND '2025-12-25' ORDER BY fx_date
+SmartVoage - 2025-12-23 11:41:31,896 - INFO - 天气查询结果：meta=None content=[TextContent(type='text', text='{"status": "success", "data": [{"city": "上海", "fx_date": "2025-12-23", "temp_max": 18, "temp_min": 7, "text_day": "小雨", "text_night": "小雨", "humidity": 71, "wind_dir_day": "西北风", "precip": 0.0}, {"city": "上海", "fx_date": "2025-12-24", "temp_max": 10, "temp_min": 5, "text_day": "阴", "text_night": "阴", "humidity": 57, "wind_dir_day": "北风", "precip": 0.0}, {"city": "上海", "fx_date": "2025-12-25", "temp_max": 10, "temp_min": 4, "text_day": "多云", "text_night": "多云", "humidity": 54, "wind_dir_day": "北风", "precip": 0.0}]}', annotations=None, meta=None)] structuredContent={'result': '{"status": "success", "data": [{"city": "上海", "fx_date": "2025-12-23", "temp_max": 18, "temp_min": 7, "text_day": "小雨", "text_night": "小雨", "humidity": 71, "wind_dir_day": "西北风", "precip": 0.0}, {"city": "上海", "fx_date": "2025-12-24", "temp_max": 10, "temp_min": 5, "text_day": "阴", "text_night": "阴", "humidity": 57, "wind_dir_day": "北风", "precip": 0.0}, {"city": "上海", "fx_date": "2025-12-25", "temp_max": 10, "temp_min": 4, "text_day": "多云", "text_night": "多云", "humidity": 54, "wind_dir_day": "北风", "precip": 0.0}]}'} isError=False
+SmartVoage - 2025-12-23 11:41:31,908 - INFO - MCP 返回: {'status': 'success', 'data': [{'city': '上海', 'fx_date': '2025-12-23', 'temp_max': 18, 'temp_min': 7, 'text_day': '小雨', 'text_night': '小雨', 'humidity': 71, 'wind_dir_day': '西北风', 'precip': 0.0}, {'city': '上海', 'fx_date': '2025-12-24', 'temp_max': 10, 'temp_min': 5, 'text_day': '阴', 'text_night': '阴', 'humidity': 57, 'wind_dir_day': '北风', 'precip': 0.0}, {'city': '上海', 'fx_date': '2025-12-25', 'temp_max': 10, 'temp_min': 4, 'text_day': '多云', 'text_night': '多云', 'humidity': 54, 'wind_dir_day': '北风', 'precip': 0.0}]}
+SmartVoage - 2025-12-23 11:41:31,913 - INFO - 原始响应: Task(id='task-be0d9758-6db7-42c6-8575-b9de5e3c2faf', session_id='664038d8-6449-4611-bf7d-4eff14c37a0b', status=TaskStatus(state=<TaskState.COMPLETED: 'completed'>, message=None, timestamp='2025-12-23T11:41:31.908556'), message={'content': {'text': '上海最近三天', 'type': <ContentType.TEXT: 'text'>}, 'role': 'user', 'message_id': '0d19f1e3-1068-4e1d-bdd4-8de45d0b587d'}, history=[], artifacts=[{'parts': [{'text': '上海 2025-12-23: 小雨（夜间 小雨），温度 7-18°C，湿度 71%，风向 西北风，降水 0.0mm\n上海 2025-12-24: 阴（夜间 阴），温度 5-10°C，湿度 57%，风向 北风，降水 0.0mm\n上海 2025-12-25: 多云（夜间 多云），温度 4-10°C，湿度 54%，风向 北风，降水 0.0mm', 'type': 'text'}]}], metadata={})
+SmartVoage - 2025-12-23 11:41:53,860 - INFO - **天气解说员总结**:
+欢迎来到天气宝库！今天我们为您带来上海未来三日天气展望：23日小雨，气温7-18°C，湿度71%，夜间依旧阴雨绵绵，出行记得携带雨具；24日转为阴天，气温回落至5-10°C，风寒明显，适宜室内活动；25日多云，气温维持4-10°C，湿度下降，空气渐干，适合通风晾晒。三日无降水，但早晚温差大，注意添衣保暖，健康迎新年！
