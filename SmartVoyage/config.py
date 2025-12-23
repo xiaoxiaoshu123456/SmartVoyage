@@ -9,7 +9,7 @@ class Config:
     def __init__(self):
         # 大模型配置
         self.base_url = 'https://dashscope.aliyuncs.com/compatible-mode/v1'
-        self.api_key = 'sk-02a1894b257f485492afb5dfc3e90eaa'  # 需要替换成自己的api_key
+        self.api_key = 'sk-___'  # 需要替换成自己的api_key
         self.model_name = 'qwen-plus'
 
         # 数据库配置
